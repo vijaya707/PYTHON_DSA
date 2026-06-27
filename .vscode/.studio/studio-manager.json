@@ -3,22 +3,8 @@
     {
       "condition": "always",
       "commandType": "vscode",
-      "command": "studio-manager.openFile main.py 1"
-    },
-    {
-      "condition": "always",
-      "commandType": "vscode",
-      "command": "studio-manager.openTerminal",
-      "cmdArgs": [
-        "python main.py",
-        {
-          "name": "python",
-          "location": {
-            "viewColumn": 2
-          }
-        }
-      ],
-      "delay": 2000
+      "command": "studio-manager.openFile README.md 1",
+      "cmdArgs": []
     }
   ]
 }
